@@ -1,0 +1,27 @@
+    8. EVEN OR ODD PROGRAM
+
+CODE:
+
+#include <stdio.h>
+
+void main() {
+    int a;
+    printf("Enter A value: ");
+    scanf("%d",&a);
+    if(a%2==0){
+        printf("A is even");
+    }
+    else{
+        printf("A is odd");
+    }
+}
+
+OUTPUT:1
+
+Enter A value: 44
+A is even
+ 
+OUTPUT:2
+
+Enter A value: 33
+A is odd
